@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Russo One", sans-serif;;
+}
+
+body {
+  font-family: 'poppins', system-ui;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  width: 500px;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  background-color: #515151;
+  color: #ffffff;
+  box-shadow: -25px 0 25px -25px rgba(0, 0, 0, 1), 25px 0 25px -25px rgba(0, 0, 0, 1);
+}
+
+main h1 {
+  padding: 20px;
+}
+
+/* style to list out item in cart */
+main .list-cart {
+  overflow: auto;
+}
+
+main .list-cart .cart-item .cart-image img {
+  width: 100%;
+}
+
+main .list-cart .cart-item {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 20px;
+  text-align: center;
+  align-items: center;padding: 0 20px;
+}
+
+main .list-cart .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+main .list-cart span:nth-child(2) {
+  background: transparent;
+  color: #ffffff;
+}
+
+main .list-cart .cart-item:nth-child(even) {
+  background: #121212;
+}
+
+/* style to the cart buttons */
+main .cart-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+main .cart-btn button {
+  background-color: #1ea5ff;
+  border: none;
+  font-size: 16px;
+}
+
+main .cart-btn .close {
+  background: #ffffff;
+}
+
+main .cart-btn a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .cart-section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-total {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
