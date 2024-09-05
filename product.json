@@ -3,18 +3,18 @@
     "id": 1,
     "name": "Black sapphire",
     "price": 30,
-    "image": "./Frame 3.png"
+    "image": "./image/Frame 3.png"
   },
   {
     "id": 2,
     "name": "Red sapphire",
     "price": 30,
-    "image": "./Frame 4.png"
+    "image": "./image/Frame 4.png"
   },
   {
     "id": 3,
     "name": "Green sapphire",
     "price": 30,
-    "image": ".Frame 5.png"
+    "image": "./image/Frame 5.png"
   }
 ]

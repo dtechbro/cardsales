@@ -9,10 +9,17 @@ const addDataToHTML = () => {
       let newProduct = document.createElement('div');
       newProduct.classList.add('product');
       newProduct.innerHTML = `
-        <img src="./Frame 3.png" alt="">
-        <h2>NAME PRODUCT</h2>
-        <div clas
+        <img class="card-design" src="${product.image}" alt="card-template-design">
+
+        <div>
+          <h6 class="card-name">Black saphire</h6>
+          <div class="price-div">
+            <p>$30</p>
+            <button class="add-cart">Add to cart</button>
+          </div>
+        </div>
       `;
+      listProductHTML.appendChild(newProduct)
     })
   }
 }
